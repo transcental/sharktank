@@ -6,8 +6,8 @@ from starlette.requests import Request
 from starlette.responses import JSONResponse
 from starlette.routing import Route
 
-from app.config import config
-from app.env import env
+from sharktank.config import config
+from sharktank.env import env
 
 logger = logging.getLogger(__name__)
 

@@ -10,8 +10,8 @@ from slack_bolt.async_app import AsyncRespond
 from slack_sdk.errors import SlackApiError
 from slack_sdk.web.async_client import AsyncWebClient
 
-from app.commands.world import world_handler
-from app.config import config
+from sharktank.commands.world import world_handler
+from sharktank.config import config
 
 PREFIX = "hello"  # the main command!
 

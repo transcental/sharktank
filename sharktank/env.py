@@ -7,14 +7,14 @@ from slack_bolt.async_app import AsyncApp
 from slack_sdk.web.async_client import AsyncWebClient
 from starlette.applications import Starlette
 
-from app.actions import register_actions
-from app.commands import register_commands
-from app.config import config
-from app.events import register_events
-from app.shortcuts import register_shortcuts
-from app.tasks import register_tasks
-from app.utils.logging import send_heartbeat
-from app.views import register_views
+from sharktank.actions import register_actions
+from sharktank.commands import register_commands
+from sharktank.config import config
+from sharktank.events import register_events
+from sharktank.shortcuts import register_shortcuts
+from sharktank.tasks import register_tasks
+from sharktank.utils.logging import send_heartbeat
+from sharktank.views import register_views
 
 logger = logging.getLogger(__name__)
 

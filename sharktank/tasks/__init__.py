@@ -2,8 +2,8 @@ from datetime import datetime
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from app.config import config
-from app.tasks.task import task
+from sharktank.config import config
+from sharktank.tasks.task import task
 
 
 def register_tasks():

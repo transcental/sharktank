@@ -1,6 +1,6 @@
 from slack_bolt.async_app import AsyncApp
 
-from app.events.message import message_handler
+from sharktank.events.message import message_handler
 
 
 EVENTS = [

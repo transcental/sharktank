@@ -5,4 +5,4 @@ from app.config import config
 
 DB = PostgresEngine(config={"dsn": config.database_url.encoded_string()})
 
-APP_REGISTRY = AppRegistry(apps=["app.piccolo_app"])
+APP_REGISTRY = AppRegistry(apps=["sharktank.piccolo_app"])
