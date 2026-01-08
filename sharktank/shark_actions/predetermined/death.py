@@ -19,7 +19,7 @@ async def kill_shark():
                 },
                 "accessory": {
                     "type": "image",
-                    "image_url": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
+                    "image_url": "https://sharktank.transcental.dev/static/sharks/sad.png",
                     "alt_text": "dead haj"
                 }
             }
