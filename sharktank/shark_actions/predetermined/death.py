@@ -1,7 +1,7 @@
 from sharktank.tables import Shark
 from sharktank.config import config
 from sharktank.utils.logging import send_heartbeat
-from sharktank.setup_shark import setup_shark
+# from sharktank.setup_shark import setup_shark
 
 async def kill_shark():
     await Shark.delete(force=True)
@@ -25,4 +25,4 @@ async def kill_shark():
             }
         ]
     )
-    await setup_shark()
+    # await setup_shark()
