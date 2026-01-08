@@ -14,6 +14,5 @@ RUN uv sync --frozen
 EXPOSE 3000
 
 ENV PATH="/app/.venv/bin:$PATH"
-RUN uv run piccolo migrations forwards all
 
-CMD ["sharktank"]
+CMD ["sh", "-c", "uv run piccolo migrations forwards all && sharktank"]
