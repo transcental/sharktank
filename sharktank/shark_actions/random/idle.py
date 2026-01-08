@@ -11,7 +11,7 @@ async def idle():
             "hunger": 5,
             "happiness": -2,
             "health": 0,
-            "image": "https://sharktank.transcental.dev/public/sharks/idle.png",
+            "image": "https://cassiopeia3000.transcental.dev/public/sharks/idle.png",
             "alt_text": "A shark doing nothing",
             "message": "The shark is idly swimming around... 🦈\n+5 hunger, -2 happiness"
         },
@@ -19,7 +19,7 @@ async def idle():
             "hunger": 3,
             "happiness": 3,
             "health": 0,
-            "image": "https://sharktank.transcental.dev/public/sharks/nap.png",
+            "image": "https://cassiopeia3000.transcental.dev/public/sharks/nap.png",
             "alt_text": "A shark taking a nap",
             "message": "The shark takes a nap and feels refreshed 😴\n+3 hunger, +3 happiness"
         },
@@ -27,7 +27,7 @@ async def idle():
             "hunger": 2,
             "happiness": -5,
             "health": -1,
-            "image": "https://sharktank.transcental.dev/public/sharks/bored.png",
+            "image": "https://cassiopeia3000.transcental.dev/public/sharks/bored.png",
             "alt_text": "A bored shark",
             "message": "The shark looks bored and a bit grumpy 😒\n+2 hunger, -5 happiness, -1 health"
         },
@@ -35,7 +35,7 @@ async def idle():
             "hunger": 1,
             "happiness": 4,
             "health": 0,
-            "image": "https://sharktank.transcental.dev/public/sharks/bubble.png",
+            "image": "https://cassiopeia3000.transcental.dev/public/sharks/bubble.png",
             "alt_text": "A shark playing with bubbles",
             "message": "The shark plays with bubbles and smiles 🫧\n+1 hunger, +4 happiness"
         },
@@ -43,7 +43,7 @@ async def idle():
             "hunger": 6,
             "happiness": 1,
             "health": 0,
-            "image": "https://sharktank.transcental.dev/public/sharks/lookingfourfood.png",
+            "image": "https://cassiopeia3000.transcental.dev/public/sharks/lookingfourfood.png",
             "alt_text": "A hungry shark looking for food",
             "message": "The shark looks around hungrily... 👀\n+6 hunger, +1 happiness"
         }
