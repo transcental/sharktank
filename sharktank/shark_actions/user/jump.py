@@ -13,7 +13,7 @@ async def jump():
         blocks=[
             {
                 "type": "image",
-                "image_url": "https://cassiopeia3000.transcental.dev/public/sharks/boing.gif",
+                "image_url": "https://cassiopeia3000.transcental.dev/static/sharks/boing.gif",
                 "alt_text": "A shark jumping on a trampoline"
             },
             {

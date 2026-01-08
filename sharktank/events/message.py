@@ -2,7 +2,8 @@ from slack_bolt.async_app import AsyncSay
 from slack_sdk.web.async_client import AsyncWebClient
 
 from sharktank.shark_actions.user.jump import jump
-
+from sharktank.shark_actions.user.clean import clean
+from sharktank.shark_actions.user.heal import heal
 
 async def message_handler(client: AsyncWebClient, say: AsyncSay, body: dict):
     event = body["event"]
@@ -17,6 +18,10 @@ async def message_handler(client: AsyncWebClient, say: AsyncSay, body: dict):
     match text.lower():
         case "jump":
             await jump()
+        case "clean":
+            await clean()
+        case "heal":
+            await heal()
         case "help":
             await client.chat_postMessage(
                 channel=event["channel"],

@@ -12,7 +12,7 @@ async def get_dirty():
             "hunger": 0,
             "happiness": -3,
             "health": -5,
-            "image": "https://cassiopeia3000.transcental.dev/public/sharks/sad.png",
+            "image": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
             "alt_text": "A dirty shark covered in algae",
             "message": "The shark swam through some murky water and got covered in algae! 🦠\n-5 health, -3 happiness"
         },
@@ -20,7 +20,7 @@ async def get_dirty():
             "hunger": 0,
             "happiness": -2,
             "health": -3,
-            "image": "https://cassiopeia3000.transcental.dev/public/sharks/sad.png",
+            "image": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
             "alt_text": "A muddy shark",
             "message": "The shark rolled around in the sandy bottom and got all muddy! 💩\n-3 health, -2 happiness"
         },
@@ -28,7 +28,7 @@ async def get_dirty():
             "hunger": 0,
             "happiness": -4,
             "health": -7,
-            "image": "https://cassiopeia3000.transcental.dev/public/sharks/sad.png",
+            "image": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
             "alt_text": "A shark covered in oil",
             "message": "The shark swam through an oil slick... this is bad! 🛢️\n-7 health, -4 happiness"
         },
@@ -36,7 +36,7 @@ async def get_dirty():
             "hunger": 2,
             "happiness": -1,
             "health": -4,
-            "image": "https://cassiopeia3000.transcental.dev/public/sharks/sad.png",
+            "image": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
             "alt_text": "A shark tangled in seaweed",
             "message": "The shark got tangled in some rotting seaweed 🌿\n-4 health, -1 happiness, +2 hunger"
         },
@@ -44,7 +44,7 @@ async def get_dirty():
             "hunger": 0,
             "happiness": -5,
             "health": -6,
-            "image": "https://cassiopeia3000.transcental.dev/public/sharks/sad.png",
+            "image": "https://cassiopeia3000.transcental.dev/static/sharks/sad.png",
             "alt_text": "A shark in polluted water",
             "message": "The shark wandered into polluted waters and feels gross 🤢\n-6 health, -5 happiness"
         }
