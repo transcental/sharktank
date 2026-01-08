@@ -18,10 +18,9 @@ async def message_handler(client: AsyncWebClient, say: AsyncSay, body: dict):
         case "jump":
             await jump()
         case "help":
-            response_text = (
-                "Here are some commands you can use:\n"
-                "- `hello`: Greet the bot\n"
-                "- `help`: Show this help message\n"
+            await client.chat_postMessage(
+                channel=event["channel"],
+                text="hiiii!!!!!!! you can say to me `jump` and i will jump :D"
             )
         case _:
             await client.reactions_remove(
