@@ -11,6 +11,7 @@ from sharktank.actions import register_actions
 from sharktank.commands import register_commands
 from sharktank.config import config
 from sharktank.events import register_events
+from sharktank.setup_shark import setup_shark
 from sharktank.shortcuts import register_shortcuts
 from sharktank.tasks import register_tasks
 from sharktank.utils.logging import send_heartbeat
@@ -47,6 +48,7 @@ class Environment:
             logger.debug("Starting Socket Mode handler")
             await handler.connect_async()
 
+        await setup_shark()
         register_commands(env.app)
         register_shortcuts(env.app)
         register_actions(env.app)

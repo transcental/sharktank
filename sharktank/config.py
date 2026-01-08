@@ -9,6 +9,7 @@ class SlackConfig(BaseSettings):
     maintainer_id: str
     app_token: str | None = None
     heartbeat_channel: str | None = None
+    shark_channel: str
 
 
 class Config(BaseSettings):

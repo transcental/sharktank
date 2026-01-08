@@ -11,7 +11,7 @@ def register_tasks():
     scheduler.add_job(
         task,
         "interval",
-        minutes=1,
+        minutes=10,
         max_instances=1,
         next_run_time=datetime.now(),
     )

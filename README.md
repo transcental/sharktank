@@ -1,6 +1,4 @@
-# Slack Template
-
-This is a Slack template for creating a great Slack app using Python and Starlette.
+# Shark Tank
 
 ## Prerequisites
 
@@ -19,16 +17,7 @@ This is a Slack template for creating a great Slack app using Python and Starlet
 
 ## Setting up the Project
 
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/your-repo/slack-template.git
-   cd slack-template
-   ```
-   
-2. Rename the `app` folder to your app. You should also update this in `pyproject.toml`, `app/piccolo_app.py` and do a find and replace for `app.` to `foldername.`. 
-
-3. Install dependencies:
+1. Install dependencies:
 
    ```
    uv sync
@@ -74,3 +63,23 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License.
+
+# Shark
+
+## Moods
+
+- Abused
+- Happy
+- Neutral
+- Sad
+- Abandonment
+    - Sends DMs to the last person that talked to it begging to come back because shark misses you :c
+
+## Mechanisms
+
+- Hunger
+  - Int 1-100
+  - If it gets too hungry it eats you and you have to start again
+- Health
+  - Int 1-100
+  - Hygene, you have to clean it every

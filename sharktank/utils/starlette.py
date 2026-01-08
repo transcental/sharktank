@@ -4,7 +4,8 @@ from slack_bolt.adapter.starlette.async_handler import AsyncSlackRequestHandler
 from starlette.applications import Starlette
 from starlette.requests import Request
 from starlette.responses import JSONResponse
-from starlette.routing import Route
+from starlette.routing import Mount, Route
+from starlette.staticfiles import StaticFiles
 
 from sharktank.config import config
 from sharktank.env import env
@@ -38,6 +39,7 @@ app = Starlette(
     routes=[
         Route(path="/slack/events", endpoint=endpoint, methods=["POST"]),
         Route(path="/health", endpoint=health, methods=["GET"]),
+        Mount(path="/static", app=StaticFiles(directory='sharktank/public'), name="static")
     ],
     lifespan=env.enter,
 )

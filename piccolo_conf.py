@@ -1,7 +1,7 @@
 from piccolo.conf.apps import AppRegistry
 from piccolo.engine.postgres import PostgresEngine
 
-from app.config import config
+from sharktank.config import config
 
 DB = PostgresEngine(config={"dsn": config.database_url.encoded_string()})
 
